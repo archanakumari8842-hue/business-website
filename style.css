@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #243047;
+}
+
+header {
+  background: #142b4a;
+  color: white;
+  padding: 22px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.hero {
+  background: linear-gradient(120deg, #183b65, #3984c6);
+  color: white;
+  text-align: center;
+  padding: 90px 20px;
+}
+
+.hero h1 {
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  background: orange;
+  color: #142b4a;
+  padding: 12px 22px;
+  margin-top: 25px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.section {
+  padding: 55px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  color: #183b65;
+  margin-bottom: 18px;
+}
+
+footer {
+  background: #142b4a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+#contactForm {
+  max-width: 450px;
+  margin: 20px auto;
+  display: grid;
+  gap: 12px;
+}
+
+#contactForm input,
+#contactForm textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font: inherit;
+}
+
+#contactForm textarea {
+  min-height: 100px;
+}
+
+#contactForm button {
+  background: #183b65;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
