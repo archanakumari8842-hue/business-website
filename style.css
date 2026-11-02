@@ -95,3 +95,25 @@ footer {
   border-radius: 6px;
   cursor: pointer;
 }
+#reviews {
+  background: #f0f6ff;
+  padding: 40px 20px;
+}
+
+#reviews .project {
+  background: white;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  transition: transform 0.3s;
+}
+
+#reviews .project:hover {
+  transform: translateY(-5px);
+}
+
+#reviews h3 {
+  color: #f5a623;
+}
